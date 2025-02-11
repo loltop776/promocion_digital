@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+/* Fuente principal */
 * {
     font-family: "Overpass", serif;
     font-optical-sizing: auto;
@@ -12,6 +14,14 @@
 body {
 
     margin: 0%;
+
+}
+
+/* Negrita de la página */
+
+b {
+
+    color: aqua;
 
 }
 
@@ -136,8 +146,8 @@ h1{
 header {
 
     width: 100%;
-    background-image: url(../img/fotoprov.png);
-    border: 1px solid black;
+    color: white;
+    background-image: url(../img/header_image.png);
     height: 40vh;
     align-content: center;
     text-align: center;
@@ -145,11 +155,9 @@ header {
 
 }
 
-
 /* Espaciado de los lados */
 aside {
 
-    border: 1px solid black;
     padding: 10%;
 
 }
@@ -168,3 +176,41 @@ main > section {
     width: 60%;
 
 }
+
+/* Artículos */
+
+article {
+
+    text-align: center;
+
+}
+
+article > p {
+
+    font-size: 120%;
+
+}
+
+
+/* Título de los artículos */
+
+h3 {
+
+    font-size: 270%;
+    
+
+}
+
+
+/* Título de los casos */
+
+h4 {
+
+    font-size: 200%;
+    text-align: start;
+    margin-left: 2%;
+
+}
+
+
+/* Zona de slides */
