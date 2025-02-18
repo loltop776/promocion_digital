@@ -37,21 +37,21 @@ nav {
 
 
 /* Aplicamos el ancho de la imagen un 50% */
-#nav_image > a > img {
+#nav_image > img {
 
-    width: 40%;
+    width: 30%;
     height: 92%;
     margin-top: 1%;
 
 }
 
-#nav_image > a > img:hover {
+/* #nav_image > img:hover {
 
-    width: 45%;
+    width: 35%;
     transition: all 0.5s ease;
 
 
-}
+} */
 
 
 /* Imagen del encabezado */
@@ -108,7 +108,7 @@ h1{
 #nav_title:hover > h1{
 
     transition: all 1s ease;
-    font-size: 250%;
+    font-size: 270%;
 
 }
 
@@ -130,6 +130,15 @@ h1{
     align-content: center;
 }
 
+/* Enlace del título */
+
+#nav_title{
+
+    text-decoration: none;
+    color: black;
+
+}
+
 
 /* Contacto del navbar */
 #nav_h1_desc{
@@ -146,7 +155,7 @@ h1{
 header {
 
     width: 100%;
-    color: white;
+    color: black;
     background-image: url(../img/header_image.png);
     height: 40vh;
     align-content: center;
@@ -188,9 +197,16 @@ article {
 article > p {
 
     font-size: 120%;
+    text-align: justify;
 
 }
 
+article > ul{
+
+    text-align: start;
+    justify-content: center;
+
+}
 
 /* Título de los artículos */
 
@@ -204,6 +220,13 @@ h3 {
 
 /* Título de los casos */
 
+a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
 h4 {
 
     font-size: 200%;
@@ -214,3 +237,10 @@ h4 {
 
 
 /* Zona de slides */
+
+
+
+
+
+
+

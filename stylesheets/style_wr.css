@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Fuente principal */
+* {
+    font-family: "Overpass", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0%;
+
+}
+
+/* Negrita de la página */
+
+b {
+
+    color: #3091a9;
+
+}
+
+
+/* Encabezado navbar */
+nav {
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+
+}
+
+
+/* Aplicamos el ancho de la imagen un 50% */
+#nav_image > img {
+
+    width: 30%;
+    height: 92%;
+    margin-top: 1%;
+
+}
+
+/* #nav_image > img:hover {
+
+    width: 35%;
+    transition: all 0.5s ease;
+
+
+} */
+
+
+/* Imagen del encabezado */
+#nav_image {
+
+    width: 30%;
+    text-align: center;
+
+}
+
+
+/* Contenedor de las opciones de los encabezados */
+#nav_cases{
+
+    width:30%;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+
+}
+
+#nav_cases > a {
+
+    width: 30%;
+    margin: 5%;
+    text-align: center;
+    border-radius: 10%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: all 0.5s ease;
+
+}
+
+#nav_cases > a:hover{
+
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    width: 40%;
+
+
+}
+
+/* Título encabezado */
+
+h1{
+
+    font-size: 200%;
+
+}
+
+#nav_title:hover > h1{
+
+    transition: all 1s ease;
+    font-size: 270%;
+
+}
+
+#nav_title:hover > p{
+
+    transition-delay: all 5s ease;
+    transition: all 0.5s ease;
+    visibility: visible;
+    transform: translateY(10px);
+
+}
+
+
+/* Contenedor del título */
+#nav_title{
+
+    width: 40%; 
+    text-align: center;
+    align-content: center;
+}
+
+/* Enlace del título */
+
+#nav_title{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/* Contacto del navbar */
+#nav_h1_desc{
+
+    visibility: hidden;
+    position: absolute;
+    top: 10%;
+    left: 45.5%;
+
+}
+
+
+/* Encabezado de la página */
+header {
+
+    width: 100%;
+    color: white;
+    background-image: url(../img/header_image_wr.png);
+    height: 40vh;
+    align-content: center;
+    text-align: center;
+    font-size: 300%;
+
+}
+
+/* Espaciado de los lados */
+aside {
+
+    padding: 10%;
+
+}
+
+/* Contenedor del contenido principal */
+main {
+
+    width: 100%;
+    display: flex;
+
+}
+
+
+main > section {
+
+    width: 60%;
+
+}
+
+/* Artículos */
+
+article {
+
+    text-align: center;
+
+}
+
+article > p, ul {
+
+    font-size: 120%;
+    text-align: justify;
+
+}
+
+article > ul{
+
+    text-align: start;
+    justify-content: center;
+
+}
+
+/* Título de los artículos */
+
+h3 {
+
+    font-size: 270%;
+    
+
+}
+
+
+/* Título de los casos */
+
+h4 {
+
+    font-size: 200%;
+    text-align: start;
+    margin-left: 2%;
+
+}
+
+
+
+
+/* Tabla */
+
+#art_table {
+
+    width: 100%;
+
+}
+
+/* table {
+
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4%;
+    margin: 5%;
+
+}
+
+tr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+th{
+
+    width: 30%;
+    margin: 5%;
+}
+
+td {
+
+    width: 70%;
+    text-align: start;
+    margin: 5%;
+} */
+
+
+
