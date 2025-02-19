@@ -102,7 +102,7 @@ nav {
 h1{
 
     font-size: 200%;
-
+    color: #57C3E8;
 }
 
 #nav_title:hover > h1{
@@ -213,9 +213,11 @@ article > ul{
 h3 {
 
     font-size: 270%;
-    
+    transition: all 0.5s ease;
 
 }
+
+
 
 
 /* Título de los casos */
@@ -237,10 +239,6 @@ h4 {
 
 
 /* Zona de slides */
-
-
-
-
 
 
 
