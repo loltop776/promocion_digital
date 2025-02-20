@@ -17,11 +17,13 @@ body {
 
 }
 
+img{width: 100%;}
+
 /* Negrita de la página */
 
 b {
 
-    color: aqua;
+    color: #162030;
 
 }
 
@@ -95,6 +97,7 @@ nav {
     width: 40%;
     border-radius: 10px;
 
+
 }
 
 /* Título encabezado */
@@ -156,7 +159,7 @@ header {
 
     width: 100%;
     color: black;
-    background-image: url(../img/header_image.png);
+    background-image: url(../img/header_image_ez.png);
     height: 40vh;
     align-content: center;
     text-align: center;
@@ -194,7 +197,7 @@ article {
 
 }
 
-article > p {
+article > p, ul {
 
     font-size: 120%;
     text-align: justify;
@@ -213,53 +216,12 @@ article > ul{
 h3 {
 
     font-size: 270%;
-    transition: all 0.5s ease;
+    
 
 }
 
-/* Botón */
-
-button{
-
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 2%;
-    height: 7vh;
-    background-color: aqua;
-    border: 1px solid black;
-    border-radius: 15px;
-
-}
-
-button > a{
-
-    text-decoration: none;
-    color: black;
-    font-size: 150%;
-
-}
-
-button:hover > a{
-
-    color: white;
-
-}
-
-button:hover{
-
-    background-color: rgb(7, 82, 82);
-
-}
 
 /* Título de los casos */
-
-a {
-
-    text-decoration: none;
-    color: black;
-
-}
 
 h4 {
 
@@ -269,22 +231,122 @@ h4 {
 
 }
 
+/* Contenido de información */
+section > div{
 
-/* Zona de slides */
+    width: 50%;
+    margin: 2%;
+    font-size: 120%;
 
-.wrapper { max-width: 1200px; margin: 20px auto; overflow: hidden; position: relative; }
-.slider { display: flex; transition: transform 1s ease; }
-input[type="radio"] { display: none; }
-.slide { min-width: 100%; overflow: hidden; position: relative; }
-.slide img { width: 100%; vertical-align: top; height: 80vh;}
-.caption { position: absolute; bottom: 20px; left: 20px; color: white; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+}
 
-/* Controladores del slider */
-.slider-controler { text-align: center; margin-top: 10px; }
-.slider-controler label { font-size: 2rem; color: #333; cursor: pointer; margin: 0 5px; }
-#slide1:checked ~ .slider { transform: translateX(0%); }
-#slide2:checked ~ .slider { transform: translateX(-100%); }
-#slide3:checked ~ .slider { transform: translateX(-200%); }
+.info_container {
+    display: flex;
+    align-items: center ;
+    text-align: justify;
+}
 
-/* Estilo para el punto activo */
-.slider-controler label.active { color: #007bff; }
+.info_image {
+
+    width: 100%;
+    border: 2px solid #162030;
+    border-radius: 5%;
+
+}
+
+.image_info_container{
+
+    width: 40%;  
+
+}
+
+.text_info_container{
+
+    width: 60%;
+
+}
+/* Tabla */
+
+#art_table {
+
+    width: 100%;
+
+}
+
+
+
+video {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border: 2px solid #162030;
+    border-radius: 25px;
+
+}
+
+.video_content{
+    width: 100%;
+}
+
+
+button{
+
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    height: 6vh;
+    background-color: #162030;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+
+button > a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+
+}
+
+button:hover > a{color: black;}
+
+button:hover{
+
+    background-color: white;
+
+}
+
+/* Tabla */
+
+#table_wr {
+    width: 100%;
+    border: 2px solid #162030;
+    box-shadow: 2px 0px 10px #162030;
+    border-collapse: collapse; 
+}
+
+.col1{
+    width: 15%;
+    text-align: center;
+    color: #162030;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.col2{
+    width: 35%;
+    text-align: center;
+    padding: 2%;
+}
+
+tr {
+    border: 2px solid #162030;
+}
+
+#message_col1 {
+    color: #162030;
+    font-weight: bold;
+}
