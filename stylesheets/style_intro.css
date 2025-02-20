@@ -5,7 +5,7 @@
 * {
     font-family: "Overpass", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 
     box-sizing: border-box;
@@ -78,7 +78,7 @@ nav {
     width: 30%;
     margin: 5%;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 10px;
     text-decoration: none;
     color: black;
     background-color: white;
@@ -93,7 +93,7 @@ nav {
     transition: all 0.5s ease;
     cursor: pointer;
     width: 40%;
-
+    border-radius: 10px;
 
 }
 
@@ -102,7 +102,7 @@ nav {
 h1{
 
     font-size: 200%;
-    color: #57C3E8;
+
 }
 
 #nav_title:hover > h1{
@@ -240,5 +240,19 @@ h4 {
 
 /* Zona de slides */
 
+.wrapper { max-width: 1200px; margin: 20px auto; overflow: hidden; position: relative; }
+.slider { display: flex; transition: transform 1s ease; }
+input[type="radio"] { display: none; }
+.slide { min-width: 100%; overflow: hidden; position: relative; }
+.slide img { width: 100%; vertical-align: top; }
+.caption { position: absolute; bottom: 20px; left: 20px; color: white; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
 
+/* Controladores del slider */
+.slider-controler { text-align: center; margin-top: 10px; }
+.slider-controler label { font-size: 2rem; color: #333; cursor: pointer; margin: 0 5px; }
+#slide1:checked ~ .slider { transform: translateX(0%); }
+#slide2:checked ~ .slider { transform: translateX(-100%); }
+#slide3:checked ~ .slider { transform: translateX(-200%); }
 
+/* Estilo para el punto activo */
+.slider-controler label.active { color: #007bff; }
