@@ -272,7 +272,7 @@ h4 {
 
 /* Zona de slides */
 
-.wrapper { max-width: 1200px; margin: 20px auto; overflow: hidden; position: relative; }
+.wrapper { max-width: 100%; margin: 20px auto; overflow: hidden; position: relative; border: 2px solid aqua; border-radius: 25px; height: 70vh;}
 .slider { display: flex; transition: transform 1s ease; }
 input[type="radio"] { display: none; }
 .slide { min-width: 100%; overflow: hidden; position: relative; }
